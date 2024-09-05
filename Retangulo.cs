@@ -3,8 +3,20 @@ namespace DimensoesRetangulo
 {
     class Retangulo
     {
-        public double Altura;
-        public double Largura;
+        private double _altura;
+        private double _largura;
+
+        public double Altura
+        {
+            get { return _altura; }
+            set { _altura = value; }
+        }
+
+        public double Largura
+        {
+            get { return _largura; }
+            set { _largura = value; }
+        }
 
         public Retangulo( double altura, double largura)
         {
